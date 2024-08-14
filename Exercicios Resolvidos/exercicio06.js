@@ -12,7 +12,7 @@ const prompt = require('prompt-sync')()
 
 let ladoA = Number(prompt('Digite o primeiro lado do triangulo: '))
 let ladoB = Number(prompt('Digite o segundo lado do triangulo: '))
-let ladoC = Number(prompt('Digite o terceiro lado do triangulo: '))
+let ladoC = Number(prompt('Digite o  lado do triangulo: '))
 
 
 if(ladoA < ladoB + ladoC &&  ladoB < ladoA + ladoC && ladoC < ladoA + ladoB){
